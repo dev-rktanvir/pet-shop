@@ -1,0 +1,25 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap');
+
+body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ADLaM Display", system-ui;
+  font-style: normal;
+}
+
+/* Tailwind & daisyUi */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Theme settings */
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #F9DF8A;
+  --color-secondary: #111111;
+  --color-bg-base-200: #FFF9F4;
+}
