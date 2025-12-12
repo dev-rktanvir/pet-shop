@@ -15,7 +15,7 @@
     <!-- Navbar -->
     <nav class="py-5 bg-base-200">
       <!-- Nav desktop -->
-      <div class="hidden container mx-auto px-8 lg:flex items-center justify-between">
+      <div class="hidden container mx-auto px-4 lg:flex items-center justify-between">
         <!-- Left -->
         <div class="flex gap-3 items-center">
           <img src="images/logo-header.png" alt="">
@@ -36,17 +36,48 @@
             <img src="images/search (2) 1.png" alt="">
           </div>
           <div class="flex items-center gap-3 text-xl text-secondary">
-            <button class="bg- outline-1 outline-primary px-9 py-2.5 rounded-lg">Login</button>
-            <button class="bg-primary px-9 py-2.5 rounded-lg">Register</button>
+            <button class="bg- outline-1 outline-primary px-9 py-2.5 rounded-lg cursor-pointer">Login</button>
+            <button class="bg-primary px-9 py-2.5 rounded-lg cursor-pointer">Register</button>
           </div>
         </div>
       </div>
       <!-- Nav mobile -->
-       <div class="lg:hidden flex items-center justify-between px-4">
-        <img src="images/logo-header.png" alt="">
-        <img src="images/bars-3.png" alt="">
-       </div>
+      <div class="lg:hidden flex items-center justify-between px-3">
+        <!-- logo -->
+        <div>
+          <img src="images/logo-header.png" alt="">
+        </div>
+        <!-- Hamburger & Dropdown -->
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button">
+            <img src="images/bars-3.png" alt="">
+          </div>
+
+          <ul tabindex="0" class="dropdown-content bg-white shadow-2xl mt-7 p-4 rounded-lg w-[calc(100vw-24px)]">
+            <li><a href="">Find a pet</a></li>
+            <li><a href="">Breeds</a></li>
+            <li><a href="">Contact us</a></li>
+            <div class="flex items-center justify-center gap-3 text-xl text-secondary mt-5">
+              <button class="outline outline-primary px-9 py-2.5 rounded-lg cursor-pointer">Login</button>
+              <button class="bg-primary px-9 py-2.5 rounded- cursor-pointer">Register</button>
+            </div>
+          </ul>
+        </div>
+      </div>
     </nav>
+
+    <!-- Banner section -->
+    <section
+      class="container mx-auto px-3 md:px-4 h-[450px] md:h-[800px] pt-10 md:pt-20 bg-[url(/images/cat-big.png)] bg-no-repeat bg-contain bg-bottom">
+      <div class="max-w-xs md:max-w-2xl">
+        <h2 class="text-3xl md:text-6xl text-secondary">Pamper Your Pet, Because They Deserve the Bes</h2>
+        <p class="text-base lg:text-xl text-secondary mt-4 mb-6">
+          Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails
+          wag with joy!
+        </p>
+        <a class="bg-primary px-9 py-2.5 rounded-lg" href="">Find a pet</a>
+      </div>
+    </section>
   </header>
 
   <!-- main section -->
