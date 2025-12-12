@@ -1,8 +1,8 @@
 <p align="center">
-  <strong> Live Link: https://dev-rktanvir-justice.netlify.app/</strong>
+  <strong> Live Link: https://dev-rktanvir-pet-shop.netlify.app/ </strong>
 </p>
 
-![Hero Section](https://github.com/dev-rktanvir/justic/blob/main/screenshorts/justice%20landing%20page.png)
+![Hero Section](https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop.png)
 # 🐾 Browse4Pets – Modern Pet Shop Landing Page
 
 A clean, colorful, and fully responsive landing page designed for pet shops and pet-care services, built using HTML, CSS, Tailwind CSS, and DaisyUI.
@@ -123,6 +123,20 @@ This project is easy to modify. You can change:
 - Grid layouts
 
 Tailwind classes make the entire page flexible and fast to customize.
+
+---
+
+## 📸 Screenshots
+**Click on Image to see bigger version**
+
+| Hero | Category | Products |
+| ---- | -------- | -------- |
+| <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-hero.png" width="250"/> | <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-category.png" width="250"/> | <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-products.png" width="250"/> |
+
+| Promotional | Newsletter | Footer |
+| ----------- | ---------- | ------ |
+| <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-promotional.png" width="250"/> | <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-newsletter.png" width="250"/> | <img src="https://github.com/dev-rktanvir/pet-shop/blob/main/screenshort/pet-shop-footer.png" width="250"/> |
+
 
 ## 📄 License
 This project is free to use for personal, learning, or portfolio purposes.
